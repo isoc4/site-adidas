@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'ConsolaMono', Arial, Helvetica, sans-serif;
+    src: url('fontes/ConsolaMono-Book.ttf') url('/fontes/ConsolaMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Louis', Arial, Helvetica, sans-serif;
+    src: url('fontes/LouisGeorgeCafe.ttf') format('truetype');
+}
+
+*{
+    margin: 0%;
+}
+
+:root{
+    --cor01: #8C6E64;
+    --cor02: #F2E6D8;
+    --cor03: #BFBAB0;
+    --cor04: #F2F2F0;
+    --cor05: #2A3340;
+    --cor06: #021800c9;
+    --cor07: #41332f;
+
+    --fonteconsolamono: 'ConsolaMono', Arial, Helvetica, sans-serif;
+    --fontelouis: 'Louis', Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+body{
+    background-color: var(--cor05);
+}
+
+header{
+    background-image: url('/imagem/gramado.jpg');
+    padding: 40px;
+}
+
+ul{
+    background-color: var(--cor06);
+    padding: 13px;
+    width: 70%;
+    columns: 4;
+    list-style: none;
+}
+
+li > a{
+    background-color: var(--cor01);
+    border-radius: 400px;
+    padding: 5px;
+    color: var(--cor04);
+    font-family: var(--fontelouis);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li > a:hover{
+    color: var(--cor07);
+    font-style: italic;
+}
