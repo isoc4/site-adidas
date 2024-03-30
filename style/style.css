@@ -37,13 +37,18 @@ body{
 
 header{
     background-image: url('/imagem/gramado.jpg');
+    background-position: left top;
     padding: 40px;
+}
+
+aside > img{
+    width: 30%;
+    margin-left: 40px;
 }
 
 ul{
     background-color: var(--cor06);
     padding: 13px;
-    width: 70%;
     columns: 4;
     list-style: none;
 }
@@ -61,4 +66,9 @@ li > a{
 li > a:hover{
     color: var(--cor07);
     font-style: italic;
+}
+
+#barra{
+    background-color: var(--cor06);
+    padding: 10px;
 }
