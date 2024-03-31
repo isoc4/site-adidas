@@ -41,9 +41,12 @@ header{
     padding: 40px;
 }
 
+aside{
+    background-color: red;
+}
+
 aside > img{
-    width: 30%;
-    margin-left: 40px;
+    width: 40%;
 }
 
 ul{
