@@ -20,8 +20,9 @@
     --cor03: #BFBAB0;
     --cor04: #F2F2F0;
     --cor05: #2A3340;
-    --cor06: #021800c9;
+    --cor06: #1d492d;
     --cor07: #41332f;
+    --cor08: rgba(124, 183, 250, 0.685);
 
     --fonteconsolamono: 'ConsolaMono', Arial, Helvetica, sans-serif;
     --fontelouis: 'Louis', Arial, Helvetica, sans-serif;
@@ -32,21 +33,13 @@
 
 
 body{
-    background-color: var(--cor05);
+    background-color: var(--cor08);
 }
 
 header{
     background-image: url('/imagem/gramado.jpg');
     background-position: left top;
     padding: 40px;
-}
-
-aside{
-    background-color: red;
-}
-
-aside > img{
-    width: 40%;
 }
 
 ul{
@@ -69,6 +62,10 @@ li > a{
 li > a:hover{
     color: var(--cor07);
     font-style: italic;
+}
+
+#imagemmodelos > img{
+    width: 30%;
 }
 
 #barra{
