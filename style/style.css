@@ -64,8 +64,32 @@ li > a:hover{
     font-style: italic;
 }
 
-#imagemmodelos > img{
-    width: 30%;
+article{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#modelo1{
+    background-image: url('/imagem/modelo01.jpg');;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    width: 300px;
+    margin-left: 200px;
+}
+
+#modelo2{
+    background-image: url('/imagem/modelo02.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    width: 300px;
+    margin-left: 200px;
 }
 
 #barra{
