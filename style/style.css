@@ -92,7 +92,7 @@ h1{
 
 #modelo1{
     background-image: url('https://www.mktesportivo.com/wp-content/uploads/2024/03/adidas-campanha.jpg');;
-    background-position: top top;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid var(--cor09);
@@ -120,7 +120,7 @@ h1{
 .textomodelos{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.8vw;
-    font-weight: normal;
+    font-weight: bold;
     text-align: justify;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     color: var(--cor04);

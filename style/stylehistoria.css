@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+}
+
+:root{
+    --cor01: #8C6E64;
+    --cor02: #F2E6D8;
+    --cor03: #bdae92bd;
+    --cor04: #F2F2F0;
+    --cor05: #272a33;
+    --cor07: #41332f;
+    --cor08: #7cb7faaf;
+    --cor09: #1b1b1b;
+    --cor10: #221b18;
+    --cor11: #4e322b;
+
+    --fonteadidas: 'Adidas';
+    --fonteconsolamono: 'ConsolaMono', Arial, Helvetica, sans-serif;
+    --fontelouis: 'Louis', Arial, Helvetica, sans-serif;
+}
+
+
+
+
+body{
+    background-color: var(--cor05);
+}
+
+header{
+    background-image: url('https://mercadoeconsumo.com.br/wp-content/uploads/2022/11/DSC04256-1024x576.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding: 8%;
+}
+
+nav > div{
+    display: flex;
+    background-color: var(--cor09);
+    margin: auto;
+    min-width: 200px;
+    padding: 10px;
+}
+
+nav > div > a{
+    background-color: var(--cor01);
+    border-radius: 400px;
+    padding: 1%;
+    margin-left: 5%;
+    color: var(--cor04);
+    font-family: var(--fontelouis);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav > div > a:hover{
+    color: var(--cor07);
+    font-style: italic;
+}
+
+#barra{
+    background-color: var(--cor09);
+    padding: 8px;
+    margin-bottom: 1%;
+}
+
+h1{
+    background-color: var(--cor07);
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    border-radius: 2px 10px 2px 10px;
+    box-shadow: 3px 3px 1px #191b20;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 1%;
+}
+
+#video{
+    position: relative;
+    background-color: var(--cor10);
+    padding: 25%;
+    width: 50%;
+}
+
+#video > iframe{
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    width: 85%;
+    height: 85%;
+    padding: 10px;
+}
+
+#fonte{
+    background-color: var(--cor10);
+    color: var(--cor07);
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-align: center;
+    border-radius: 2px 10px 2px 10px;
+    box-shadow: 3px 3px 1px #191b20;
+    padding: 3px;
+    margin: auto;
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#fonte > a{
+    color: var(--cor08);
+    text-decoration: none;
+}
+
+#fonte > a:hover{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 500px;
+}
+
+#imagem > p{
+    background-color: var(--cor10);
+    color: var(--cor11);
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 1.8vw;
+    text-align: center;
+    border-radius: 2px 10px 2px 10px;
+    box-shadow: 3px 3px 1px #191b20;
+    padding: 3px;
+    margin: auto;
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#adidas > h1{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#historia{
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--cor10);
+    color: var(--cor03);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 8px var(--cor08);
+    border-radius: 20px;
+    width: 35%;
+    padding: 8%;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--cor09);
+    color: var(--cor02);
+    margin-top: 5%;
+    padding: 6px;
+}
