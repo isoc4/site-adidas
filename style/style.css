@@ -80,6 +80,7 @@ article{
 
 h1{
     background-color: var(--cor07);
+    color: var(--cor04);
     font-family: 'Courier New';
     font-weight: bold;
     font-size: 4vw;
@@ -119,11 +120,11 @@ h1{
 
 .textomodelos{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2.8vw;
+    font-size: 2.5vh;
     font-weight: bold;
-    text-align: justify;
+    text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    color: var(--cor04);
+    color: lightcyan;
 }
 
 div > img{
