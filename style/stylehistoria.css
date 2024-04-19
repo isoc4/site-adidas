@@ -25,11 +25,11 @@
 
 
 body{
-    background-color: var(--cor05);
+    background-image: linear-gradient(to left, #272a33, #4c5264);
 }
 
 header{
-    background-image: url('https://mercadoeconsumo.com.br/wp-content/uploads/2022/11/DSC04256-1024x576.jpg');
+    background-image: url('/imagem/loja-adidas.png');
     background-position: center center;
     background-size: cover;
     padding: 8%;

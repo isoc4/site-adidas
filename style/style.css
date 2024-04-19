@@ -21,9 +21,10 @@
     --cor04: #F2F2F0;
     --cor05: #272a33;
     --cor07: #41332f;
-    --cor08: rgba(124, 183, 250, 0.685);
-    --cor09: rgb(27, 27, 27);
-    --color10: #221b18;
+    --cor08: #7cb7faaf;
+    --cor09: #1b1b1b;
+    --cor10: #221b18;
+    --cor11: #53555a;
 
     --fonteadidas: 'Adidas';
     --fonteconsolamono: 'ConsolaMono', Arial, Helvetica, sans-serif;
@@ -34,11 +35,11 @@
 
 
 body{
-    background-color: var(--cor05);
+    background-image: linear-gradient(to left, #272a33, #4c5264);
 }
 
 header{
-    background-image: url('https://mercadoeconsumo.com.br/wp-content/uploads/2022/11/DSC04256-1024x576.jpg');
+    background-image: url('/imagem/loja-adidas.png');
     background-position: center center;
     background-size: cover;
     padding: 8%;
@@ -78,12 +79,16 @@ article{
     padding: 10px;
 }
 
+section{
+    margin-bottom: 70px;
+}
+
 h1{
     background-color: var(--cor07);
     color: var(--cor04);
     font-family: 'Courier New';
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: center;
     border-radius: 2px 10px 2px 10px;
     box-shadow: 3px 3px 1px #191b20;
@@ -102,7 +107,6 @@ h1{
     width: 40vw;
     margin: auto;
     margin-top: 3%;
-    padding: 20px;
 }
 
 #modelo2{
@@ -118,6 +122,30 @@ h1{
     padding: 20px;
 }
 
+.linksmodelos{
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(27, 27, 27);
+    width: 25vw;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 3px solid var(--cor08);
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.linksmodelos:hover{
+    background-color: var(--cor09);
+    border: 3px solid #5f8bbd;
+    color: white;
+    box-shadow: 3px 3px 3px #5f8bbd6c;
+    transition: transform, 1s;
+}
+
 .textomodelos{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.5vh;
@@ -125,6 +153,7 @@ h1{
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     color: lightcyan;
+    padding: 20px;
 }
 
 div > img{
@@ -150,7 +179,7 @@ div > img{
     background-color: var(--cor07);
     font-family: 'Courier New';
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: center;
     border-radius: 2px 10px 2px 10px;
     box-shadow: 3px 3px 1px #191b20;
@@ -160,7 +189,9 @@ div > img{
 }
 
 #tendencia > ul > li > img{
-    width: 60%;
+    margin-left: 20%;
+    border-radius: 40%;
+    width: 35%;
 }
 
 #tendencia > ul > li > p{
