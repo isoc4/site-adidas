@@ -29,7 +29,7 @@ body{
 }
 
 header{
-    background-image: url('/imagem/loja-adidas.png');
+    background-image: url('/imagem/loja-adidas2.jpg');
     background-position: center center;
     background-size: cover;
     padding: 8%;
@@ -145,7 +145,7 @@ h1{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     color: lightcyan;
     padding: 20px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 0px 0px 0px;
 }
 
 div > img{

@@ -29,7 +29,7 @@ body{
 }
 
 header{
-    background-image: url('/imagem/loja-adidas.png');
+    background-image: url('/imagem/loja-adidas2.jpg');
     background-position: center center;
     background-size: cover;
     padding: 8%;
@@ -92,7 +92,7 @@ h1{
 }
 
 #jogador1{
-    background-image: url('/imagem/esporte/galo.jpg');
+    background-image: url('../imagem/esporte/galo.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -104,7 +104,7 @@ h1{
 }
 
 #jogador2{
-    background-image: url('/imagem/esporte/corrida.webp');
+    background-image: url('../imagem/esporte/corrida.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -115,7 +115,7 @@ h1{
 }
 
 #jogador3{
-    background-image: url('/imagem/esporte/alemanha.jpg');
+    background-image: url('../imagem/esporte/corrida.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -126,7 +126,7 @@ h1{
 }
 
 #jogador4{
-    background-image: url('/imagem/esporte/messi.jpg');
+    background-image: url('../imagem/esporte/messi.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
