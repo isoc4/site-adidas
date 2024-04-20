@@ -29,7 +29,7 @@ body{
 }
 
 header{
-    background-image: url('/imagem/loja-adidas2.jpg');
+    background-image: url('../imagem/loja-adidas2.jpg');
     background-position: center center;
     background-size: cover;
     padding: 8%;
@@ -104,7 +104,7 @@ h1{
 }
 
 #jogador2{
-    background-image: url('../imagem/esporte/corrida.webp');
+    background-image: url('../imagem/esporte/alemanha.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
