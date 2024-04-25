@@ -35,27 +35,36 @@ header{
     padding: 14%;
 }
 
-nav > div{
+nav{
+    display: flex;
+}
+
+.divheader{
     display: flex;
     margin: auto;
+    width: 70px;
+    height: 70px;
 }
 
-nav > div > a{
+.divheader:hover{
     background-color: var(--cor01);
-    border-radius: 400px;
-    padding: 1%;
-    margin-left: 5%;
-    color: var(--cor04);
-    font-family: var(--fontelouis);
-    font-weight: bold;
-    text-decoration: none;
-    width: 80px;
-    height: 80px;
+    border-radius: 50%;
+    transition: transform, 600ms;
 }
 
-nav > div > a:hover{
-    color: var(--cor07);
-    font-style: italic;
+.divheader > a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 1px #493a34;
+    text-decoration: none;
+    margin: auto;
+}
+    
+
+.divheader > a:hover{
+    color: var(--cor08);
+    transition: transform, 500ms;
 }
 
 #barra{
@@ -144,7 +153,7 @@ h1{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     color: lightcyan;
     padding: 20px;
-    border-radius: 15px 0px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 div > img{
