@@ -25,14 +25,14 @@
 
 
 body{
-    background-image: linear-gradient(to left, #272a33, #4c5264);
+    background-color: #746e68;
 }
 
 header{
     background-image: url('../imagem/loja-adidas2.jpg');
     background-position: center center;
     background-size: cover;
-    padding: 14%;
+    padding: 98px;
 }
 
 nav{
@@ -41,14 +41,16 @@ nav{
 
 .divheader{
     display: flex;
+    cursor: pointer;
     margin: auto;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
 
 .divheader:hover{
     background-color: var(--cor01);
     border-radius: 50%;
+    box-shadow: 6px 6px 8px rgba(245, 245, 245, 0.76);
     transition: transform, 600ms;
 }
 
@@ -60,25 +62,29 @@ nav{
     text-decoration: none;
     margin: auto;
 }
-    
 
-.divheader > a:hover{
-    color: var(--cor08);
-    transition: transform, 500ms;
+.divheader > a > svg{
+    fill: var(--cor01);
+}
+
+.divheader > a > svg:hover{
+    fill: var(--cor08);
+    transition: 600ms;
 }
 
 #barra{
     background-color: var(--cor09);
     padding: 8px;
-    margin-bottom: 1%;
+}
+
+main{
+    background-image: linear-gradient(to left, #272a33, #4c5264);
+    margin: auto;
+    width: 85vw;
 }
 
 article{
     padding: 10px;
-}
-
-section{
-    margin-bottom: 70px;
 }
 
 h1{
@@ -102,7 +108,7 @@ h1{
     border: 3px solid var(--cor09);
     border-radius: 20px;
     height: 600px;
-    width: 40vw;
+    max-width: 247px;
     margin: auto;
     margin-top: 3%;
 }
@@ -115,7 +121,7 @@ h1{
     border: 3px solid var(--cor09);
     border-radius: 20px;
     height: 600px;
-    width: 40vw;
+    max-width: 247px;
     margin: auto;
 }
 
@@ -146,13 +152,14 @@ h1{
 .textomodelos{
     background-image: linear-gradient(to bottom, #00000050, transparent);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 65%;
-    font-size: 2.2vw;
+    max-height: 562px;
+    width: 160px;
+    font-size: 1.3em;
     font-weight: bold;
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     color: lightcyan;
-    padding: 20px;
+    padding: 5px;
     border-radius: 15px 15px 0px 0px;
 }
 
